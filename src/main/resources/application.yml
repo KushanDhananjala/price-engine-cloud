@@ -1,0 +1,15 @@
+# Server properties
+server:
+  port: 8080
+
+# Database Properties
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/price_engine
+    username: postgres
+    password: 123456
+    initialization-mode: always
+  jpa:
+    database: postgresql
+    generate-ddl: true
+    hibernate.ddl-auto: create-drop

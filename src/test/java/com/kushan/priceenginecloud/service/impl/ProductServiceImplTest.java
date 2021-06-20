@@ -1,4 +1,4 @@
-package com.kushan.priceenginecloud.impl;
+package com.kushan.priceenginecloud.service.impl;
 
 import com.kushan.priceenginecloud.dto.ProductDto;
 import com.kushan.priceenginecloud.dto.ProductPriceDto;
